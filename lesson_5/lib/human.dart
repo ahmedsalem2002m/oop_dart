@@ -18,14 +18,12 @@ class Human {
       this._numberOfArms = numberOfArms;
     }
   }
-  set numberOfArms (int numberOfArms){
+
+  set numberOfArms(int numberOfArms) {
     if (numberOfArms <= 2 && numberOfArms >= 0) {
       this._numberOfArms = numberOfArms;
     }
   }
 
-  int getNumberOfArms() => this._numberOfArms;
-
-  }
-
-
+  int get numberOfArms => this._numberOfArms;
+}

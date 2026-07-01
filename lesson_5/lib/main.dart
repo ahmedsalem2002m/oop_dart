@@ -8,5 +8,5 @@ void main() {
 
   ahmed.numberOfArms = 1;
 
-  print(ahmed.getNumberOfArms());
+  print(ahmed.numberOfArms);
 }
