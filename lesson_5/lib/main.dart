@@ -7,6 +7,6 @@ void main() {
 
 
   ahmed.numberOfArms = 1;
-  
-  print(ahmed.getNumbserOfArms());
+
+  print(ahmed.getNumberOfArms());
 }

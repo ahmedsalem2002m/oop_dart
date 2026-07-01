@@ -24,9 +24,8 @@ class Human {
     }
   }
 
-  int getNumbserOfArms() {
-      return this._numberOfArms;
-    }
+  int getNumberOfArms() => this._numberOfArms;
+
   }
 
 
