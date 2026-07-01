@@ -23,6 +23,10 @@ class Cat extends Animal {
 
 class Lion extends Animal {
   Lion({required super.skinColor, required super.weight});
+  @override
+  void eat() {
+    print("Lion eating");
+  }
 
   void roar() {
     print("roaring");

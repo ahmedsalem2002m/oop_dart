@@ -13,5 +13,5 @@ void main() {
   a.eat();
   a.bark();
   c.meo();
-  b.roar();
+  b.eat();
 }
