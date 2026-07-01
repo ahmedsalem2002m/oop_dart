@@ -1,34 +1,38 @@
 class Animal {
   int numberOfLimbs = 4;
+  String? skinColor;
+  double? weight;
+
+  Animal({required this.skinColor, required this.weight});
 
   void eat() {
     print("Eating");
   }
-  void walk(){
 
-  }
+  void walk() {}
 
-  void sleep(){
+  void sleep() {}
+}
 
+class Cat extends Animal {
+  Cat({required super.skinColor, required super.weight});
+  void meo() {
+    print("Meoing");
   }
 }
 
-class Cat extends Animal{
-  void meo(){
-print("Meoing");
+class Lion extends Animal {
+  Lion({required super.skinColor, required super.weight});
+
+  void roar() {
+    print("roaring");
   }
 }
 
-class Lion extends Animal{
-  void roar(){
-print("roaring");
+class Dog extends Animal {
+  Dog({required super.skinColor, required super.weight});
 
-  }
-}
-
-class Dog extends Animal{
-  void bark(){
-print("barking");
-
+  void bark() {
+    print("barking");
   }
 }
